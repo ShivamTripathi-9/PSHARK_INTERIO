@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSHARK INTERIO </title>
+  <link rel="icon" type="image/png" href="PNG.png">
+
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/Component/footer.css">
+  <link rel="stylesheet" href="/Component/header.css">
+  <link rel="stylesheet" href="mainstyle.css">
+</head>
+
+<body>
+
+  <div id="header-container"></div>
+
+  <!-- slider -->
+  <!-- 
+  <div>
+    <div class="slider-container">
+      <div class="book">
+        <div class="page page-1">
+          <img src="sopha2.webp" alt="Image 1">
+        </div>
+        <div class="page page-2">
+          <img src="images/a2.jpg" alt="Image 2">
+        </div>
+
+        <div class="page page-2">
+          <img src="images/a3.jpg" alt="Image 2">
+        </div>
+        <div class="page page-2">
+          <img src="images/a2.jpg" alt="Image 2">
+        </div>
+        <div class="page page-2">xxxxxxxx
+          <img src="images/a1.jpg" alt="Image 2">
+        </div>
+      </div>
+      <button class="prev-btn">←</button>
+      <button class="next-btn">→</button>
+    </div>
+
+  </div> -->
+
+
+  <div class="videocontainer">
+    <video autoplay muted loop>
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="content">
+      <h1>Welcome to Psark Interio</h1>
+      <p>
+        Discover amazing furniture designs, creative interior ideas, and smart space solutions crafted with passion and
+        precision.
+      </p>
+      <div class="more-text" id="moreText">
+        <p>
+          Psark Interio is your destination for stylish and functional furniture that transforms your home or office
+          into a place of comfort and elegance. From ergonomic chairs and sleek office desks to luxurious beds and
+          multi-purpose storage solutions, we design with both beauty and practicality in mind.
+        </p>
+        <p>
+          Our mission is to blend aesthetics with everyday usability. Whether you're furnishing a cozy bedroom, a
+          productive workspace, or a modern living room, Psark Interio offers innovative, custom-crafted pieces tailored
+          to fit your lifestyle and space.
+        </p>
+      </div>
+
+      <button class="read-btn" onclick="toggleText()" id="readMoreBtn">Read More</button>
+    </div>
+  </div>
+
+
+
+
+  <!-- image of all chair -->
+
+  <div>
+    <div class="chairheading">
+      <h2>OFFICE CHAIRS</h2>
+    </div>
+    <div class="chairs-container" id="chairsContainer"></div>
+
+  </div>
+
+  <!-- Accessories-->
+  <div>
+    <div class="Accessoriesheading">
+      <h2>Accessories</h2>
+    </div>
+    <div class="Accessories-container" id="AccessoriesContainer"></div>
+
+  </div>
+
+
+  <!-- Modular Office Furniture Section -->
+  <div>
+    <div class="modularheading">
+      <h3>MODULAR OFFICE FURNITURE</h3>
+    </div>
+    <div class="modular-container" id="modularContainer"></div>
+  </div>
+
+  <!-- Storage Furniture Section -->
+  <div>
+    <div class="storageFurnitureheading">
+      <h2>Storage Furniture</h2>
+    </div>
+    <div class="storage-container" id="storageContainer"></div>
+  </div>
+
+
+
+
+
+
+
+  <!--About section  -->
+  <section class="about-section" id="About">
+    <h1>Welcome to <span class="about-bold">PSHARK INTERIO</span></h1>
+    <div class="about-container">
+      <div class="about-image-container">
+        <img src="images/a1.jpg" alt="Geeken Furniture Building">
+      </div>
+      <div class="about-content">
+
+        <h3 class="about-subtitle">Crafting Spaces for Success Since 2010</h3>
+        <p class="about-description">
+          Experience the perfect harmony of <b>Innovation</b>, <b>sustainability</b>, and <b>craftsmanship</b>
+          at<b>PSHARK INTERIO</b>a premier name in India's office furniture industry. With
+          <b>15+ years of experience</b>,we take pride in serving
+          <b>20,000+ delighted clients</b> and successfully delivering
+          <b>5,000+ projects</b>, transforming offices, schools, hospitals,
+          and homes into spaces of productivity and inspiration.
+        </p>
+
+        <div class="about-features">
+          <p>⚙️ <b>Cutting-Edge Technology:</b> Tech-integrated furniture since 2022.</p>
+          <hr class="about-divider">
+          <p>🌱 <b>Sustainability at Heart:</b> IGBC-certified factory with eco-friendly practices.</p>
+          <hr class="about-divider">
+          <p>🏆 <b>Unmatched Quality:</b> Rigorous testing ensures durable and ergonomic furniture.</p>
+        </div>
+
+        <button id="about-readMoreBtn">Read More About Us</button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <section class="contact">
+    <div class="contact-container">
+
+      <div class="contact-box" onclick="sendEmail()">
+        <div class="icon-container">
+          <img src="images/populerslider/email.png" alt="Email Icon">
+        </div>
+        <div class="contact-text">
+          <h3>ENQUIRE NOW</h3>
+          <p>Buy Online Office Chairs, Office Furniture at low prices</p>
+        </div>
+      </div>
+
+      <div class="contact-box" onclick="downloadBrochure()">
+        <div class="icon-container">
+          <img src="images/populerslider/brochure-icon.png" alt="Brochure Icon">
+        </div>
+        <div class="contact-text">
+          <h3>DOWNLOAD BROCHURE</h3>
+          <p>In our brochure, you'll find more details about each product.</p>
+        </div>
+      </div>
+
+      <div class="contact-box" onclick="openWhatsApp()">
+        <div class="icon-container">
+          <img src="images/populerslider/whatsapp-icon.png" alt="WhatsApp Icon">
+        </div>
+        <div class="contact-text">
+          <h3>WHATSAPP US</h3>
+          <p>To better assist you, contact us on WhatsApp</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  </div>
+  </section>
+
+
+
+
+
+  <!-- testimonial section -->
+  <section class="sectioon_container">
+    <div class="testimonial-header">
+      <h2>TESTIMONIAL</h2>
+      <h1 class="fw-bold">Customer is Our Top<br>Priority</h1>
+      <p>We survey all of our clients, the results of which go directly<br>to our CEO.</p>
+    </div>
+    <div class="testimonial-slider">
+      <button class="slider-btn left-btn" onclick="goPrev()">&lt;</button>
+      <div class="card_main" id="slider">
+        <!-- Testimonial Items -->
+      </div>
+      <button class="slider-btn right-btn" onclick="goNext()">&gt;</button>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <div class="faq-main">
+    <div class="faq-title">
+      <h1>FAQ's</h1>
+    </div>
+    <div class="accordion">
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(0)">
+          <h2>What services does Psark Interio offer?</h2>
+          <span class="arrow"></span>
+        </div>
+        <div class="accordion-content">
+          <p>Psark Interio provides high-quality interior design solutions, including home, office, and commercial space
+            designs.</p>
+
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(1)">
+          <h2>How can I book a consultation with Psark Interio?</h2>
+          <span class="arrow"></span>
+        </div>
+        <div class="accordion-content">
+          <p>You can book a consultation through our website, contact form, or by calling our customer support team.</p>
+
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(2)">
+          <h2>Does Psark Interio provide customized interior designs</h2>
+          <span class="arrow"></span>
+        </div>
+        <div class="accordion-content">
+          <p>Yes, we specialize in customized interior designs tailored to your preferences and space requirements.</p>
+
+        </div>
+      </div>
+
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(3)">
+          <h2>What is the estimated time for project completion?</h2>
+          <span class="arrow"></span>
+        </div>
+        <div class="accordion-content">
+          <p>The project completion time depends on the scope and complexity. Typically, it ranges from a few weeks to a
+            few months.</p>
+        </div>
+      </div>
+
+
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(4)">
+          <h2>Does Psark Interio offer budget-friendly interior design solutions?</h2>
+          <span class="arrow"></span>
+        </div>
+        <div class="accordion-content">
+          <p>Yes, we offer interior design solutions that fit various budgets while maintaining high-quality standards.
+          </p>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+  <div id="footer-container"></div>
+
+
+  <script src="/Component/componentJs.js"></script>
+  <!-- <script src="sliderJS.js"></script> -->
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>

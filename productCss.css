@@ -1,0 +1,198 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            /* text-align: center; */
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        
+        .container {
+            width: 100%;
+            height: 300px;
+            background-color: violet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+           
+        }
+        
+        /* Chair Info Section */
+        .chair-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            /* margin-top: 20px; */
+         
+         
+          
+        
+        }
+
+        .chair-card {
+          
+            height: auto;
+            /* background: rgb(136, 42, 42); */
+            text-align: center;
+        
+            border-radius: 10px;
+            border:1px solid white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 10px;
+            
+        }
+
+        .chair-image {
+            width: 100%;
+            height: 300px;
+            object-fit: contain;
+            /* border-radius: 8px; */
+            margin: 2px;
+        }
+
+        .chair-details {
+            padding: 0 20px;
+            text-align: start;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+           /* gap: 0 70px;   */
+            justify-content: space-between; 
+            align-items: center;
+            column-gap: 40px;
+            margin-bottom: 10px;
+            border-top: 1px solid rgb(189, 187, 187) ; /* Set border thickness to 10px */
+         
+        }
+        
+        
+        .chair-name {
+            font-size: 22px;
+            font-weight: 600;
+            color: #333;
+            margin-top: 5px;
+        }
+        
+        .chair-id
+        {
+            font-size: 18px;
+            margin-top: 5px;
+            font-weight: 700;
+        }
+        .chair-quality {
+            font-size: 18px;
+            margin-top: 5px;
+            font-weight: 700;
+
+        }
+        
+        .chair-id {
+            color: rgb(39, 38, 38);
+        }
+        
+        .chair-quality {
+            color: #555;
+        }
+
+        .chair-price {
+            font-size: 18px;
+            color: #27ae60;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        
+        
+
+
+        .chair-rating {
+            font-size: 20px;
+            color: #f39c12;
+            font-weight: bold;
+            /* margin-bottom: 5px; */
+            display: flex;
+            gap: 40px;
+        }
+        
+        /* Add stars dynamically using CSS */
+        .chair-rating::before {
+            content: "☆☆☆☆☆"; /* Default to 0 stars */
+        }
+        
+        /* Custom styles for different ratings */
+        .chair-rating[data-rating="1"]::before { content: "★☆☆☆☆"; }
+        .chair-rating[data-rating="2"]::before { content: "★★☆☆☆"; }
+        .chair-rating[data-rating="3"]::before { content: "★★★☆☆"; }
+        .chair-rating[data-rating="4"]::before { content: "★★★★☆"; }
+        .chair-rating[data-rating="5"]::before { content: "★★★★★"; }
+        
+
+
+        
+.buy-now-button {
+    background-color: #290901; /* Bright orange/red color */
+    color: white;
+    font-size: 16px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.buy-now-button:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+}
+
+ /* Image Grid */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 30px 25vh;
+}
+
+/* Individual Image Box */
+.image-box {
+    width: 100%;
+    height: 400px; /* Fixed height for consistency */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* Image Styling */
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures images fill the container without distortion */
+}
+
+/* Hover Effect */
+.image-box:hover {
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Image Name Styling */
+.image-name {
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    margin: 0;
+    border-top: 1px solid rgb(189, 187, 187) ; /* Set border thickness to 10px */
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+
+
