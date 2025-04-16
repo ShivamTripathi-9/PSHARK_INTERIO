@@ -337,7 +337,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: "CHAIR-1003",
       img: "/images/ProductImg/Student Chairs/Student Chairs.jpg",
       description: "good quality",
-      price: "299.99",
+      price: "5000.99",
       rating: 5,
       extraImages: [
         {
@@ -401,7 +401,7 @@ document.addEventListener("DOMContentLoaded", function () {
       id: "CHAIR-1003",
       img: "/images/ProductImg/Student Desk/Student Desk.jpg",
       description: "good quality",
-      price: "299.99",
+      price: "2909.99",
       rating: 5,
       extraImages: [
         {
@@ -640,7 +640,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="chair-name">${chair.name}</div>
                         <div class="chair-rating" data-rating="${selectedChair.rating}"></div>
                         <div class="chair-id">ID: ${selectedChair.id}</div>
-                           <div class="chair-price">Prise: ${selectedChair.price}</div>
+                          
                        
                            <div class="chair-buy"> <button class="buy-now-button">Buy Now</button></div>
 
@@ -654,7 +654,8 @@ document.addEventListener("DOMContentLoaded", function () {
         imgBox.innerHTML = `
                     <img src="${image.src}" alt="${image.name}" id="${image.id}">
                     <p class="image-name">${image.name}  (ID: ${image.id}) </p>
-                  <div class="chair-rating" data-rating="${image.rating}"> <button class="buy-now-button ">Buy Now</button></div>
+                  <div class="chair-rating" data-rating="${image.rating}"> 
+                  
                    
                 `;
         imageContainer.appendChild(imgBox);
@@ -667,3 +668,6 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("chairTitle").textContent = "No chair selected.";
   }
 });
+
+//   <button class="buy-now-button ">Buy Now</button></div>
+//  <div class="chair-price">Prise: ${selectedChair.price}</div>

@@ -15,6 +15,7 @@ function toggleText() {
 document.addEventListener("DOMContentLoaded", function () {
   const chairs = [
     {
+      id:"chair",
       name: "President Chairs",
       img: "images/president.jpg",
       url: "product.html",
@@ -400,13 +401,19 @@ function sendEmail() {
 
 // Open brochure PDF
 function downloadBrochure() {
-  window.open("#", "_blank");
+  window.open("images/psharkinterio.pdf", "_blank");
+
 }
 
 // Open WhatsApp chat
 function openWhatsApp() {
-  window.open("https://wa.me/9654689000", "_blank");
+  const number = "9654689000"; // hidden from HTML
+  const message = encodeURIComponent("Hi, I'm interested in your services.");
+  const url = `https://wa.me/${number}?text=${message}`;
+  window.open(url, "_blank");
 }
+
+
 
 function toggleAccordion(index) {
   let items = document.querySelectorAll(".accordion-content");
