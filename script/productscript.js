@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // Chair data with unique IDs and images
   const chairData = {
     "President Chairs": {
-      id: "CHAIR-1004401",
+      id: "CHAIR-101",
       img: "images/president.jpg",
       description: "good quality",
-      price: "299.99",
+      // price: "5099.99",
       rating: 5,
       extraImages: [
         {
@@ -59,25 +59,25 @@ document.addEventListener("DOMContentLoaded", function () {
           rating: 5,
         },
         {
-          id: "IMG-005",
+          id: "IMG-009",
           name: "Cushion",
           src: "/images/ProductImg/chairs/Presidentchair9.jpg",
           rating: 4,
         },
         {
-          id: "IMG-006",
+          id: "IMG-010",
           name: "Legs",
           src: "/images/ProductImg/chairs/Presidentchair10.jpg",
           rating: 5,
         },
         {
-          id: "IMG-007",
+          id: "IMG-011",
           name: "Close-up",
           src: "/images/ProductImg/chairs/Presidentchair11.jpg",
           rating: 4,
         },
         {
-          id: "IMG-008",
+          id: "IMG-012",
           name: "Top View",
           src: "/images/ProductImg/chairs/Presidentchair12.jpg",
           rating: 3,
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ],
     },
     "CEO Chairs": {
-      id: "CHAIR-1002",
+      id: "CHAIR-102",
       img: "/images/ProductImg/CEOchairs/CEOchairs1.jpg   ",
       description: "good quality",
       price: "299.99",
@@ -140,25 +140,25 @@ document.addEventListener("DOMContentLoaded", function () {
           rating: 5,
         },
         {
-          id: "IMG-005",
+          id: "IMG-009",
           name: "Cushion",
           src: "/images/ProductImg/CEOchairs/CEOchairs9.jpg",
           rating: 4,
         },
         {
-          id: "IMG-006",
+          id: "IMG-010",
           name: "Legs",
           src: "/images/ProductImg/CEOchairs/CEOchairs10.jpg",
           rating: 5,
         },
         {
-          id: "IMG-007",
+          id: "IMG-011",
           name: "Close-up",
           src: "/images/ProductImg/CEOchairs/CEOchairs11.jpg",
           rating: 4,
         },
         {
-          id: "IMG-008",
+          id: "IMG-012",
           name: "Top View",
           src: "/images/ProductImg/CEOchairs/CEOchairs12.jpg",
           rating: 3,
@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ],
     },
     "Manager Chairs": {
-      id: "CHAIR-1003",
+      id: "CHAIR-103",
       img: "images/manager-chair.jpeg",
       description: "good quality",
       price: "299.99",
@@ -218,7 +218,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     "Mesh Chairs": {
-      id: "CHAIR-1003",
+      id: "CHAIR-104",
       img: "images/meshchair1.jpg",
       description: "good quality",
       price: "299.99",
@@ -231,37 +231,37 @@ document.addEventListener("DOMContentLoaded", function () {
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-002",
           name: "Front View",
           src: "/images/ProductImg/MeshChair/M_C2.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-003",
           name: "Front View",
           src: "/images/ProductImg/MeshChair/M_C3.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-004",
           name: "Front View",
           src: "/images/ProductImg/MeshChair/M_C4.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-005",
           name: "Front View",
           src: "/images/ProductImg/MeshChair/M_C5.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-006",
           name: "Front View",
           src: "/images/ProductImg/MeshChair/M_C6.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-007",
           name: "Front View",
           src: "/images/ProductImg/MeshChair/M_C7.jpg",
           rating: 4,
@@ -270,7 +270,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     "Visiter Chair": {
-      id: "CHAIR-1003",
+      id: "CHAIR-105",
       img: "/images/ProductImg/VisiterChair/VisiterC.jpg",
       description: "good quality",
       price: "299.99",
@@ -334,7 +334,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     "Student Chairs": {
-      id: "CHAIR-1003",
+      id: "CHAIR-106",
       img: "/images/ProductImg/Student Chairs/Student Chairs.jpg",
       description: "good quality",
       price: "5000.99",
@@ -347,49 +347,49 @@ document.addEventListener("DOMContentLoaded", function () {
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-002",
           name: "Front View",
           src: "/images/ProductImg/Student Chairs/StudentChairs1.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-003",
           name: "Front View",
           src: "/images/ProductImg/Student Chairs/StudentChairs2.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-004",
           name: "Front View",
           src: "/images/ProductImg/Student Chairs/StudentChairs3.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-005",
           name: "Front View",
           src: "/images/ProductImg/Student Chairs/StudentChairs4.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-006",
           name: "Front View",
           src: "/images/ProductImg/Student Chairs/StudentChairs5.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-007",
           name: "Front View",
           src: "/images/ProductImg/Student Chairs/StudentChairs6.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-008",
           name: "Front View",
           src: "/images/ProductImg/Student Chairs/StudentChairs7.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-009",
           name: "Front View",
           src: "/images/ProductImg/Student Chairs/StudentChairs8.jpg",
           rating: 4,
@@ -398,7 +398,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     "Student Desk": {
-      id: "CHAIR-1003",
+      id: "CHAIR-107",
       img: "/images/ProductImg/Student Desk/Student Desk.jpg",
       description: "good quality",
       price: "2909.99",
@@ -411,61 +411,61 @@ document.addEventListener("DOMContentLoaded", function () {
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-002",
           name: "Front View",
           src: "/images/ProductImg/Student Desk/StudentDesk12.jpeg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-003",
           name: "Front View",
           src: "/images/ProductImg/Student Desk/StudentDesk13.jpeg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-004",
           name: "Front View",
           src: "/images/ProductImg/Student Desk/StudentDesk1.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-005",
           name: "Front View",
           src: "/images/ProductImg/Student Desk/StudentDesk2.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-006",
           name: "Front View",
           src: "/images/ProductImg/Student Desk/StudentDesk3.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-007",
           name: "Front View",
           src: "/images/ProductImg/Student Desk/StudentDesk4.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-008",
           name: "Front View",
           src: "/images/ProductImg/Student Desk/StudentDesk5.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-009",
           name: "Front View",
           src: "/images/ProductImg/Student Desk/StudentDesk6.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-010",
           name: "Front View",
           src: "/images/ProductImg/Student Desk/StudentDesk7.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-011",
           name: "Front View",
           src: "/images/ProductImg/Student Desk/StudentDesk8.jpg",
           rating: 4,
@@ -474,7 +474,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     "Cafe Chairs": {
-      id: "CHAIR-1003",
+      id: "CHAIR-108",
       img: "/images/ProductImg/Cafe Chairs/CafeChairs1.jpg",
       description: "good quality",
       price: "299.99",
@@ -487,85 +487,85 @@ document.addEventListener("DOMContentLoaded", function () {
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-002",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs2.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-003",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs3.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-004",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs4.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-005",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs5.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-006",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs6.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-007",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs7.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-008",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs8.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-009",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs9.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-010",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs10.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-011",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs11.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-012",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs12.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-013",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs13.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-014",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs14.jpg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-015",
           name: "Front View",
           src: "/images/ProductImg/Cafe Chairs/CafeChairs15.jpg",
           rating: 4,
@@ -574,7 +574,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     "Auditorium Chair": {
-      id: "CHAIR-1003",
+      id: "CHAIR-109",
       img: "/images/ProductImg/AuditoriumChair/Auditorium Chair.jpeg",
       description: "good quality",
       price: "299.99",
@@ -587,38 +587,38 @@ document.addEventListener("DOMContentLoaded", function () {
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-002",
           name: "Front View",
           src: " /images/ProductImg/AuditoriumChair/AuditoriumChair1.jpeg",
           rating: 4,
         },
         // { id: "IMG-001", name: "Front View", src:" /images/ProductImg/AuditoriumChair/Auditorium Chair2.jpeg",rating:4 },
         {
-          id: "IMG-001",
+          id: "IMG-003",
           name: "Front View",
           src: " /images/ProductImg/AuditoriumChair/AuditoriumChair3.jpeg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-004",
           name: "Front View",
           src: " /images/ProductImg/AuditoriumChair/Auditorium Chair4.jpeg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-005",
           name: "Front View",
           src: " /images/ProductImg/AuditoriumChair/Auditorium Chair5.jpeg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-006",
           name: "Front View",
           src: " /images/ProductImg/AuditoriumChair/Auditorium Chair6.jpeg",
           rating: 4,
         },
         {
-          id: "IMG-001",
+          id: "IMG-007",
           name: "Front View",
           src: " /images/ProductImg/AuditoriumChair/Auditorium Chair7.jpeg",
           rating: 4,
@@ -653,7 +653,7 @@ document.addEventListener("DOMContentLoaded", function () {
         imgBox.classList.add("image-box");
         imgBox.innerHTML = `
                     <img src="${image.src}" alt="${image.name}" id="${image.id}">
-                    <p class="image-name">${image.name}  (ID: ${image.id}) </p>
+                    <p class="image-name">(ID: ${image.id}) </p>
                   <div class="chair-rating" data-rating="${image.rating}"> 
                   
                    
@@ -671,3 +671,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //   <button class="buy-now-button ">Buy Now</button></div>
 //  <div class="chair-price">Prise: ${selectedChair.price}</div>
+// ${image.name}  

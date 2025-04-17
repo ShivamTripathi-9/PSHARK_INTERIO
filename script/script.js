@@ -15,7 +15,7 @@ function toggleText() {
 document.addEventListener("DOMContentLoaded", function () {
   const chairs = [
     {
-      id:"chair",
+      id: "chair",
       name: "President Chairs",
       img: "images/president.jpg",
       url: "product.html",
@@ -88,22 +88,22 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "Display Racks",
       img: "images/DispalyRacks.jpg",
-      url: "product.html",
+      url: "MaintenancePage.html",
       new: true,
     },
     {
       name: "Metal CPU Trolley",
       img: "images/MentalCPUTrolly.jpg",
-      url: "Confrence Table",
+      url: "MaintenancePage.html",
       new: false,
     },
     {
       name: "Hostel Beds",
       img: "images/Hostalbed.jpg",
-      url: "product.html",
+      url: "MaintenancePage.html",
       new: true,
     },
-    { name: "Setty", img: "images/Setty.jpg", url: "ceo.html", new: false },
+    { name: "Setty", img: "images/Setty.jpg", url: "MaintenancePage.html ", new: false },
   ];
 
   // Function to open page & store selected chair
@@ -158,54 +158,56 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
+
 // Modular Office Furniture Data
 const modularFurniture = [
   {
     name: "Computer Table",
     img: "images/computertable.jpg",
-    url: "product.html",
+    url: "MaintenancePage.html",
     new: true,
   },
   {
     name: "Reception Table",
     img: "images/receptiontable.jpg",
-    url: "Confrence Table",
+    url: "MaintenancePage.html",
     new: false,
   },
   {
     name: "President Chairs",
     img: "images/confrencetable.jpg",
-    url: "product.html",
+    url: "MaintenancePage.html",
     new: true,
   },
   {
     name: "Executive Table",
     img: "images/Executivetable.jpg",
-    url: "ceo.html",
+    url: "MaintenancePage.html",
     new: false,
   },
   {
     name: "WorkStation ",
     img: "images/workstation1.jpg",
-    url: "product.html",
+    url: "MaintenancePage.html",
     new: true,
   },
   {
     name: "Modularofficedesk",
     img: "images/modularofficedesk.jpg",
-    url: "ceo.html",
+    url: "MaintenancePage.html",
     new: false,
   },
   {
     name: "Director Table ",
     img: "images/Directortable.jpg",
-    url: "product.html",
+    url: "MaintenancePage.html",
     new: true,
   },
   {
     name: "Laboratory Desk",
     img: "images/LaboratoryDesk.jpg",
-    url: "product.html",
+    url: "MaintenancePage.html",
     new: true,
   },
 ];
@@ -237,25 +239,25 @@ const storageFurniture = [
   {
     name: "Wooden Storage",
     img: "images/woodenstorage.jpg",
-    url: "product.html",
+    url: "MaintenancePage.html",
     new: true,
   },
   {
     name: "Metal Storage",
     img: "images/mentalstorage.jpg",
-    url: "Confrence Table",
+    url: "MaintenancePage.html",
     new: false,
   },
   {
     name: "Industrial Lockers",
     img: "images/industriallockers.jpg",
-    url: "product.html",
+    url: "MaintenancePage.html",
     new: true,
   },
   {
     name: "Compactor",
     img: "images/compactor.jpg",
-    url: "ceo.html",
+    url: "MaintenancePage.html",
     new: false,
   },
 ];
@@ -402,7 +404,6 @@ function sendEmail() {
 // Open brochure PDF
 function downloadBrochure() {
   window.open("images/psharkinterio.pdf", "_blank");
-
 }
 
 // Open WhatsApp chat
@@ -412,8 +413,6 @@ function openWhatsApp() {
   const url = `https://wa.me/${number}?text=${message}`;
   window.open(url, "_blank");
 }
-
-
 
 function toggleAccordion(index) {
   let items = document.querySelectorAll(".accordion-content");
